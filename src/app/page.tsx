@@ -16,7 +16,13 @@ export default function Home() {
       <main className="relative z-10 flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl w-full space-y-12 text-center">
           <div className="flex justify-center mb-8">
-            <img src="http://localhost:3000/logo.png" alt="GEO.GO Logo" className="w-64 sm:w-80 animate-fade-in" />
+            <Image
+              src="/logo.png"
+              alt="GEO.GO Logo"
+              width={300}
+              height={300}
+              className="w-64 sm:w-80 animate-fade-in"
+            />
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-none mb-4 animate-fade-in">
             Go Beyond, Earn Beyond
